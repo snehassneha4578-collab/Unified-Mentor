@@ -4,20 +4,30 @@
 
 - **Name:** Sneha S
 - **Domain:** Machine Learning
-- **Module:** Module 1
-- **Topic:** Vectors using NumPy
-- **Status:** Completed
+- **Internship:** Unified Mentor
 
-## Module 1 – Vectors using NumPy
+## About This Repository
 
-This module covers NumPy arrays, vector operations, element-wise multiplication, vector multiplication, matrix operations, matrix inverse, and NumPy universal functions (ufuncs).
+This repository contains the worksheets, assignments, practical exercises, and projects completed as part of the Unified Mentor Machine Learning Internship.
 
-## File
+New work will be added to this repository as the internship progresses.
 
-- Module_1_Numpy_Vectors.ipynb
-
-## Technologies
+## Technologies Used
 
 - Python
 - NumPy
+- Pandas
+- Scikit-learn
 - Jupyter Notebook
+- Git
+- GitHub
+
+## Repository Contents
+
+This repository contains the work and learning activities completed during the internship.
+
+The repository will be updated regularly with new worksheets, assignments, and projects.
+
+## Note
+
+All work in this repository is part of my learning journey and practical experience during the Unified Mentor Machine Learning Internship.
