@@ -24,9 +24,9 @@ New work will be added to this repository as the internship progresses.
 
 ## Repository Contents
 
-This repository contains the work and learning activities completed during the internship.
+This repository contains worksheets, assignments, practical exercises, and projects completed during the internship.
 
-The repository will be updated regularly with new worksheets, assignments, and projects.
+New internship work will be added to the repository regularly.
 
 ## Note
 
