@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.linear_model import LogisticRegression
 
+# Dataset
 X = np.array([
     [0.5, 1.5],
     [1, 1],
@@ -12,28 +14,53 @@ X = np.array([
 
 y = np.array([0, 0, 0, 1, 1, 1]).reshape(-1, 1)
 
-# Decision boundary
-x0 = np.arange(0, 6)
-x1 = 3 - x0
+# Sigmoid function
+def sigmoid(z):
+    return 1 / (1 + np.exp(-z))
 
-fig, ax = plt.subplots(1, 1, figsize=(5, 4))
+# Decision Boundary
+b = -3
+w0 = 1
+w1 = 1
 
-# Decision boundary
-ax.plot(x0, x1, c="b")
+x0 = np.linspace(0, 4, 100)
+x1 = -(w0 * x0 + b) / w1
 
-ax.axis([0, 4, 0, 3.5])
+plt.figure()
+plt.scatter(X[:, 0], X[:, 1], c=y.ravel())
+plt.plot(x0, x1)
+plt.xlabel("x0")
+plt.ylabel("x1")
+plt.title("Logistic Regression Decision Boundary")
+plt.legend(["Decision Boundary", "Data"])
 
-# Shade region
-ax.fill_between(x0, x1, alpha=0.2)
+# SAVE instead of waiting for graph window
+plt.savefig("module3_decision_boundary.png", dpi=300, bbox_inches="tight")
+plt.close()
 
-# Plot y = 0 points
-ax.scatter(X[:3, 0], X[:3, 1], marker='x', label='y = 0')
+# Sigmoid Function
+z = np.linspace(-10, 10, 100)
+g = sigmoid(z)
 
-# Plot y = 1 points
-ax.scatter(X[3:, 0], X[3:, 1], marker='o', label='y = 1')
+plt.figure()
+plt.plot(z, g)
+plt.xlabel("z")
+plt.ylabel("sigmoid(z)")
+plt.title("Sigmoid Function")
 
-ax.set_ylabel(r'$x_1$')
-ax.set_xlabel(r'$x_0$')
-ax.legend()
+# SAVE instead of waiting for graph window
+plt.savefig("module3_sigmoid.png", dpi=300, bbox_inches="tight")
+plt.close()
 
-plt.show()
+# Logistic Regression Model
+model = LogisticRegression()
+model.fit(X, y.ravel())
+
+predictions = model.predict(X)
+accuracy = model.score(X, y.ravel())
+
+print("Predictions:", predictions)
+print("Accuracy:", accuracy)
+print("Coefficients:", model.coef_[0])
+print("Intercept:", model.intercept_[0])
+print("Graphs saved successfully.")
