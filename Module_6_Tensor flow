@@ -1,0 +1,375 @@
+# 🧠 TensorFlow & Deep Learning Course
+
+A step-by-step **TensorFlow and Keras learning journey** covering neural-network classification, deep-learning regression, convolutional neural networks (CNNs), and real-world image classification.
+
+This course is based on official TensorFlow tutorials and is structured with **beginner-friendly explanations, line-by-line code walkthroughs, hands-on practice, and mini projects**.
+
+---
+
+## 🎯 Course Objective
+
+The goal of this course is to build a strong practical foundation in **TensorFlow, Keras, Deep Learning, and Computer Vision**.
+
+By completing this course, I will learn how to:
+
+* Build neural networks using TensorFlow/Keras
+* Prepare and preprocess datasets
+* Train, validate, and evaluate deep-learning models
+* Understand loss functions and optimizers
+* Perform classification and regression
+* Build Convolutional Neural Networks (CNNs)
+* Work with image datasets
+* Apply image normalization and augmentation
+* Detect and reduce overfitting
+* Make predictions using trained models
+* Save and load TensorFlow models
+* Build complete end-to-end deep-learning applications
+
+---
+
+# 📚 Course Curriculum
+
+## Module 1 — TensorFlow & Keras Foundations
+
+**Topics:**
+
+* Introduction to TensorFlow
+* Introduction to Keras
+* Tensors
+* Tensor shapes
+* Tensor data types
+* Tensor operations
+* NumPy and TensorFlow
+* Datasets and data pipelines
+* Neural-network fundamentals
+* `Sequential` models
+* Layers
+* Activations
+* Model compilation
+* Training and evaluation
+
+---
+
+## Module 2 — Neural Network Classification
+
+**Official Tutorial:**
+https://www.tensorflow.org/tutorials/keras/classification
+
+### Topics
+
+* Classification fundamentals
+* Fashion-MNIST dataset
+* Training and test datasets
+* Data preprocessing
+* Normalization
+* Building a neural network
+* `Flatten`
+* `Dense`
+* Activation functions
+* Loss functions
+* Optimizers
+* `compile()`
+* `fit()`
+* `evaluate()`
+* `predict()`
+* Model accuracy
+* Prediction visualization
+* Understanding model outputs
+
+### Architecture
+
+```text
+Input Image
+     ↓
+Flatten
+     ↓
+Dense Layer
+     ↓
+ReLU
+     ↓
+Output Layer
+     ↓
+Class Prediction
+```
+
+---
+
+## Module 3 — Deep Neural Network Regression
+
+**Official Tutorial:**
+https://www.tensorflow.org/tutorials/keras/regression#regression_with_a_deep_neural_network_dnn
+
+### Topics
+
+* Regression vs Classification
+* Numerical datasets
+* Feature preprocessing
+* Data normalization
+* Deep Neural Networks
+* Regression output layers
+* Mean Squared Error (MSE)
+* Mean Absolute Error (MAE)
+* Adam optimizer
+* Training a regression model
+* Validation
+* Model evaluation
+* Predictions
+* Learning curves
+* Overfitting
+* Improving generalization
+
+### Architecture
+
+```text
+Input Features
+      ↓
+Dense Layer
+      ↓
+ReLU
+      ↓
+Dense Layer
+      ↓
+ReLU
+      ↓
+Output Layer
+      ↓
+Continuous Prediction
+```
+
+---
+
+## Module 4 — Convolutional Neural Networks (CNN)
+
+**Official Tutorial:**
+https://www.tensorflow.org/tutorials/images/cnn
+
+### Topics
+
+* Introduction to CNNs
+* Why CNNs are useful for images
+* Image dimensions
+* Channels
+* Convolution
+* Filters/Kernels
+* Feature maps
+* `Conv2D`
+* Pooling
+* `MaxPooling2D`
+* Flattening
+* Dense layers
+* CNN architecture
+* CNN training
+* Model evaluation
+* Overfitting in CNNs
+
+### CNN Architecture
+
+```text
+Input Image
+      ↓
+Convolution
+      ↓
+Feature Maps
+      ↓
+Pooling
+      ↓
+Convolution
+      ↓
+Feature Maps
+      ↓
+Pooling
+      ↓
+Flatten
+      ↓
+Dense
+      ↓
+Prediction
+```
+
+---
+
+## Module 5 — Image Classification
+
+**Official Tutorial:**
+https://www.tensorflow.org/tutorials/images/classification
+
+### Topics
+
+* Image datasets
+* Loading images
+* Dataset organization
+* Image resizing
+* Image normalization
+* Training/validation datasets
+* Data augmentation
+* CNN-based classification
+* Model training
+* Accuracy and loss
+* Detecting overfitting
+* Improving generalization
+* Predictions on new images
+* Saving models
+* Loading trained models
+
+### Complete Workflow
+
+```text
+Image Dataset
+      ↓
+Load Images
+      ↓
+Resize
+      ↓
+Normalize
+      ↓
+Data Augmentation
+      ↓
+CNN
+      ↓
+Training
+      ↓
+Validation
+      ↓
+Evaluation
+      ↓
+Prediction
+```
+
+---
+
+# 🗓️ 40-Day Learning Plan
+
+| Days  | Module                   | Focus                               |
+| ----- | ------------------------ | ----------------------------------- |
+| 1–3   | TensorFlow Foundations   | TensorFlow, Keras, tensors          |
+| 4–8   | Classification           | Fashion-MNIST + neural networks     |
+| 9–12  | Classification Deep Dive | Loss, optimization, predictions     |
+| 13–16 | DNN Regression           | Regression with TensorFlow          |
+| 17–20 | Regression Deep Dive     | Validation, evaluation, overfitting |
+| 21–25 | CNN Fundamentals         | Convolution and pooling             |
+| 26–30 | CNN Training             | Building and training CNNs          |
+| 31–35 | Image Classification     | Real image datasets                 |
+| 36–38 | Model Improvement        | Augmentation and generalization     |
+| 39    | Final Project            | End-to-end image classifier         |
+| 40    | Final Revision           | Interview + placement preparation   |
+
+---
+
+# 💻 Learning Method
+
+Each lesson follows a practical structure:
+
+```text
+Concept
+   ↓
+Why it matters
+   ↓
+Syntax
+   ↓
+Complete Code
+   ↓
+Line-by-Line Explanation
+   ↓
+Expected Output
+   ↓
+Practice Problem
+   ↓
+Complete Solution
+   ↓
+Common Errors
+   ↓
+Interview Questions
+   ↓
+Quick Revision
+```
+
+---
+
+# 🛠️ Technologies
+
+* Python
+* TensorFlow
+* Keras
+* NumPy
+* Matplotlib
+* Pandas
+* Scikit-learn
+* Jupyter Notebook
+* VS Code
+* Google Colab
+
+---
+
+# 🎓 Skills Developed
+
+By the end of this course:
+
+* 🧠 Neural Networks
+* 📊 Classification
+* 📈 Regression
+* 🔥 TensorFlow/Keras
+* 👁️ Computer Vision
+* 🖼️ CNNs
+* 🔄 Data Augmentation
+* ⚙️ Model Training
+* 📉 Model Evaluation
+* 🛡️ Overfitting Control
+* 🤖 Deep Learning
+* 🚀 End-to-End AI Development
+
+---
+
+# 🚀 Final Project
+
+The course concludes with an **end-to-end image classification project** combining:
+
+```text
+Dataset
+   ↓
+Preprocessing
+   ↓
+Augmentation
+   ↓
+CNN
+   ↓
+Training
+   ↓
+Validation
+   ↓
+Evaluation
+   ↓
+Prediction
+   ↓
+Saved Model
+```
+
+The final project will demonstrate practical knowledge of **TensorFlow + Keras + CNN + Computer Vision**.
+
+---
+
+# 📖 Official Learning Resources
+
+1. [TensorFlow Keras Classification](https://www.tensorflow.org/tutorials/keras/classification)
+2. [TensorFlow CNN Tutorial](https://www.tensorflow.org/tutorials/images/cnn)
+3. [TensorFlow Image Classification](https://www.tensorflow.org/tutorials/images/classification)
+4. [TensorFlow Keras Regression — DNN](https://www.tensorflow.org/tutorials/keras/regression#regression_with_a_deep_neural_network_dnn)
+
+---
+
+## 📌 Progress
+
+* [ ] Module 1 — TensorFlow & Keras Foundations
+* [ ] Module 2 — Neural Network Classification
+* [ ] Module 3 — DNN Regression
+* [ ] Module 4 — CNN
+* [ ] Module 5 — Image Classification
+* [ ] Final Project
+* [ ] Final Revision
+
+---
+
+## 🌟 Goal
+
+> **From traditional Machine Learning → Neural Networks → CNNs → Practical Deep Learning → Real-World Computer Vision**
+
+This repository documents my hands-on journey toward becoming a stronger **AI/ML and Deep Learning engineer**.
